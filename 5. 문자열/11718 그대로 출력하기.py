@@ -7,3 +7,6 @@ while True:
     print(input_str)
 
 #다른 사람이 어떻게 풀었는 지 확인
+import sys
+for line in sys.stdin:
+    print(line, end="")
